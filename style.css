@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./FONTS/Montserrat_Alternates/MontserratAlternates-Bold.ttf');
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 30px 20px;
+}
+
+#image {
+    font-size: 50px;
+    
+}
+
+h3 {
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.wrapper {
+    background: rgb(237, 238, 238);
+    border: 2px solid rgb(190, 187, 187);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+form {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 20px;
+}
+
+.password-container {
+    padding-top: 25px;
+}
+
+.password-container, .email-container {
+    display: grid;
+    gap: 10px;
+    
+}
+
+.para2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.para3 {
+    color: blue;
+}
+
+button {
+    background: rgb(104, 233, 104);
+    width: 100%;
+    border-radius: 5px;    
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.new {
+    background-color: #fff;
+    border: 2px solid rgb(190, 187, 187);
+    border-radius: 10px;
+    margin-top: 45px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    justify-content: space-between ;
+    margin: 10px;
+    margin-top: 70px;
+}
+
+.aa, .bb, .cc {
+    color: blue;
+    margin: 10px;
+}
+
+.dd {
+    color: gray;
+    margin: 10px;
+}
+
+.yes {
+    background-color: black;
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.no {
+    background-color: red;
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+}
